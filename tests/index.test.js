@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../index'); // Import the app from the parent directory
 
 jest.mock('../products', () => ([
-    { id: 1, name: 'mockProduct1' },
+    { id: 1, name: 'mockProduct8' },
     { id: 2, name: 'mockProduct2' },
     { id: 3, name: 'mockProduct3' },
     { id: 4, name: 'mockProduct4' },
